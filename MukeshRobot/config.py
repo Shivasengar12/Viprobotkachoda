@@ -17,7 +17,7 @@ class Config(object):
     API_ID = "14050586" # integer value, dont use ""
     API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = "1808943146" # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = "6323402129" # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "HereShiva"
     SUPPORT_CHAT = "Mastiwithfriendsx"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
@@ -55,7 +55,7 @@ class Config(object):
     WORKERS = (
         8  # Number of subthreads to use. Set as number of threads your processor uses
     )
-    BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
+    BAN_STICKER = "https://graph.org/file/87e1e3a1fa5f219884b20.mp4".
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
         "7AT86JXWTFKSFSCQ"  # Get your API key from https://www.alphavantage.co/support/#api-key
